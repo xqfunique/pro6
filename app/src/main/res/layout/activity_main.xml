@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/parseXmlBtn"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="150dp"
+            android:text="PARSE XML"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/citynameval1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_below="@+id/parseXmlBtn"
+            android:layout_marginTop="42dp" />
+
+        <TextView
+            android:id="@+id/latitudeVal1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_below="@+id/citynameval1"
+            android:layout_marginTop="42dp" />
+
+        <TextView
+            android:id="@+id/longitudeVal1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_below="@+id/latitudeVal1"
+            android:layout_marginTop="42dp" />
+
+        <TextView
+            android:id="@+id/temperatureVal1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_below="@+id/longitudeVal1"
+            android:layout_marginTop="42dp" />
+
+        <TextView
+            android:id="@+id/humidityVal1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_below="@+id/temperatureVal1"
+            android:layout_marginTop="42dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/parseJsonBtn"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="150dp"
+            android:text="PARSE JSON"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/citynameval2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_below="@+id/parseJsonBtn"
+            android:layout_marginTop="42dp" />
+
+        <TextView
+            android:id="@+id/latitudeVal2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_below="@+id/citynameval2"
+            android:layout_marginTop="42dp" />
+
+        <TextView
+            android:id="@+id/longitudeVal2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_below="@+id/latitudeVal2"
+            android:layout_marginTop="42dp" />
+
+        <TextView
+            android:id="@+id/temperatureVal2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_below="@+id/longitudeVal2"
+            android:layout_marginTop="42dp" />
+
+        <TextView
+            android:id="@+id/humidityVal2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_below="@+id/temperatureVal2"
+            android:layout_marginTop="42dp" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
